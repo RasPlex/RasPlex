@@ -8,4 +8,4 @@ RasPlex consists of multiple repos. You can find them here: https://github.com/R
 
 This repo is used to track issues and provide a central home for RasPlex at github.
 
-See https://github.com/RasPlex/RasPlex/wiki/How-to-report-a-bug on How to report a issue.
+See https://github.com/RasPlex/RasPlex/wiki/How-to-report-a-bug on how to report a issue.
