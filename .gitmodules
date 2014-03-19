@@ -1,0 +1,18 @@
+[submodule "OpenELEC.tv"]
+	path = OpenELEC.tv
+	url = https://github.com/RasPlex/OpenELEC.tv.git
+[submodule "rasplex-update-server"]
+	path = rasplex-update-server
+	url = https://github.com/RasPlex/rasplex-update-server.git
+[submodule "rasplex-installer"]
+	path = rasplex-installer
+	url = https://github.com/RasPlex/rasplex-installer.git
+[submodule "RasPlex.github.io"]
+	path = RasPlex.github.io
+	url = https://github.com/RasPlex/RasPlex.github.io.git
+[submodule "plex-home-theater"]
+	path = plex-home-theater
+	url = https://github.com/RasPlex/plex-home-theatre
+[submodule "service.openelec.settings"]
+	path = service.openelec.settings
+	url = https://github.com/RasPlex/service.openelec.settings.git

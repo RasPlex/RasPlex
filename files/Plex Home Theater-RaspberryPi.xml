@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Client name="Raspberry PI">
+  <!-- Author: LongChair - RasPlex Team. -->
+  <TranscodeTargets>
+    <VideoProfile protocol="hls" container="mpegts" codec="h264" audioCodec="aac,ac3,mp3" context="streaming">
+      <Setting name="VideoEncodeFlags" value="-x264opts bframes=3:cabac=1" />
+      <Setting name="SubtitleSize" value="100" />
+    </VideoProfile>
+    <MusicProfile container="mp3" codec="mp3" />
+    <PhotoProfile container="jpeg" />
+  </TranscodeTargets>
+  <DirectPlayProfiles>
+  </DirectPlayProfiles>
+  <CodecProfiles>                      
+    <VideoCodec name="h264,mpeg4">
+      <Limitations>             
+        <UpperBound name="video.width" value="1920" />
+        <UpperBound name="video.height" value="1080" />
+        <UpperBound name="video.bitrate" value="20000" />
+      </Limitations>                                   
+    </VideoCodec>
+    <VideoAudioCodec name="*">
+      <Limitations>
+        <UpperBound name="audio.bitrate" value="1000" />
+      </Limitations>
+    </VideoAudioCodec>
+  </CodecProfiles>
+</Client>         
+

@@ -1,0 +1,3 @@
+OAUTH_TOKEN: 7fe3f08e0f7cbfb36647545608ec9182f706a2cf
+BASE_URL: https://api.github.com/repos/RasPlex/RasPlex/releases
+UPLOAD_URL: https://uploads.github.com/repos/RasPlex/RasPlex/releases
