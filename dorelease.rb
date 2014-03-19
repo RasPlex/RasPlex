@@ -131,3 +131,6 @@ raise OptionParser::MissingArgument if options[:update].nil? or not File.exist? 
 raise OptionParser::MissingArgument if options[:install].nil? or not File.exist? (options[:install])
 
 main(options)
+
+#./dorelease.rb -v 0.3.9-rc1 -u OpenELEC.tv/tmp/rasplex-RPi.arm-wip.tar.gz -i OpenELEC.tv/tmp/rasplex-wip.img.gz -c changes.txt
+

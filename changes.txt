@@ -1,2 +1,6 @@
-one change
-another change
+Autoupdate now built directly into PlexHT in RasPlex - no more reflashing!
+Transcoder profile (soon to be included in plex server) to automatically transcode formats the Pi can't play
+Precaching of remote servers and server selection
+Speed, responsiveness, and stability
+Rock solid iOS and android support
+PlexHT 1.0.11 changes
