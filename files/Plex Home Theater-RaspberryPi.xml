@@ -2,7 +2,7 @@
 <Client name="Raspberry PI">
   <!-- Author: LongChair - RasPlex Team. -->
   <TranscodeTargets>
-    <VideoProfile protocol="http" container="matroska" codec="h264" audioCodec="aac,ac3,mp3,dca" context="streaming">
+    <VideoProfile protocol="hls" container="mpegts" codec="h264" audioCodec="aac,ac3,mp3" context="streaming">
       <Setting name="VideoEncodeFlags" value="-x264opts bframes=3:cabac=1" />
       <Setting name="SubtitleSize" value="100" />
     </VideoProfile>
