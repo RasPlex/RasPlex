@@ -1,6 +1,9 @@
-Autoupdate now built directly into PlexHT in RasPlex - no more reflashing!
-Transcoder profile (soon to be included in plex server) to automatically transcode formats the Pi can't play
-Precaching of remote servers and server selection
-Speed, responsiveness, and stability
-Rock solid iOS and android support
-PlexHT 1.0.11 changes
+Most recent code from PHT 1.0.13
+Overhauled install wizard (english only)
+Fixed music playback
+Fixed numerous transcode issues
+Fixed issue where audio settings were not saved
+Fixed shutdown loop
+No longer transcode for codecs that have been purchased
+Updated firmware to work with newer raspberry pis
+Numerous tweaks and fixes
