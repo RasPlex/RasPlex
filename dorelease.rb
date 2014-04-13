@@ -107,17 +107,13 @@ end
 
 def main(options)
 
-  create_and_push_tags(options[:version])
+#  create_and_push_tags(options[:version])
   id = update_draft_release(options[:version], "release notes")
   updatename, updatechecksum = add_asset(id, options[:update], true)
   installname, installchecksum = add_asset(id, options[:install])
 
-  updatename = "rasplex-RPi.arm-0.4.0-rc1.tar.gz"
-  updatechecksum = "ebedbf0dab2895421c120fde226161219ef95034"
 
 
-  installname = "rasplex-RP-0.4.0-rc1.img.gz"
-  installchecksum = "44e9e6edfa7ced6503d24b26bbd755dd"
 
   changes = create_release_notes(options[:changes], installname, installchecksum, updatename, updatechecksum )
   puts changes

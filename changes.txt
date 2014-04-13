@@ -1,9 +1,5 @@
-Most recent code from PHT 1.0.13
-Overhauled install wizard (english only)
-Fixed music playback
-Fixed numerous transcode issues
-Fixed issue where audio settings were not saved
-Fixed shutdown loop
-No longer transcode for codecs that have been purchased
-Updated firmware to work with newer raspberry pis
-Numerous tweaks and fixes
+Fixed the notorious 'update loop' bug
+Fixed shutdown / reboot issues
+Fixed audio stuttering problem
+Improved updater speed and reliability
+Change firmware to reliable version
