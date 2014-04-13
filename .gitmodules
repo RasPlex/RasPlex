@@ -1,28 +1,28 @@
 [submodule "OpenELEC.tv"]
 	path = OpenELEC.tv
 	url = https://github.com/RasPlex/OpenELEC.tv.git
-  branch = rasplex-dev
+	branch = rasplex-dev
 [submodule "rasplex-update-server"]
 	path = rasplex-update-server
 	url = https://github.com/RasPlex/rasplex-update-server.git
-  branch = master
+	branch = master
 [submodule "rasplex-installer"]
 	path = rasplex-installer
 	url = https://github.com/RasPlex/rasplex-installer.git
-  branch = master
+	branch = master
 [submodule "RasPlex.github.io"]
 	path = RasPlex.github.io
 	url = https://github.com/RasPlex/RasPlex.github.io.git
-  branch = master
+	branch = master
 [submodule "plex-home-theater"]
 	path = plex-home-theater
 	url = https://github.com/RasPlex/plex-home-theatre
-  branch = rasplex-dev
+	branch = rasplex-dev
 [submodule "service.openelec.settings"]
 	path = service.openelec.settings
 	url = https://github.com/RasPlex/service.openelec.settings.git
-  branch = rasplex
+	branch = rasplex
 [submodule "vagrant"]
 	path = vagrant
 	url = https://github.com/RasPlex/vagrant.git
-  branch = master
+	branch = master
