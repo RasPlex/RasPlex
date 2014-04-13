@@ -16,3 +16,6 @@
 [submodule "service.openelec.settings"]
 	path = service.openelec.settings
 	url = https://github.com/RasPlex/service.openelec.settings.git
+[submodule "vagrant"]
+	path = vagrant
+	url = https://github.com/RasPlex/vagrant.git
