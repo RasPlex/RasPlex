@@ -2,7 +2,6 @@
 
 RasPlex is a community driven port of Plex Home Theater for the Raspberry Pi
 
-
 RasPlex consists of multiple repos. You can find them here: https://github.com/RasPlex.
 
 All of the core rasplex repos are tracked in this meta repo, and this repo is used to generate releases.
