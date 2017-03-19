@@ -1,7 +1,7 @@
 [submodule "OpenELEC.tv"]
 	path = OpenELEC.tv
 	url = https://github.com/RasPlex/OpenPHT-Embedded.git
-	branch = openpht-1.7
+	branch = openpht-1.8
 [submodule "rasplex-update-server"]
 	path = rasplex-update-server
 	url = https://github.com/RasPlex/rasplex-update-server.git
@@ -17,11 +17,11 @@
 [submodule "plex-home-theater"]
 	path = plex-home-theater
 	url = https://github.com/RasPlex/OpenPHT.git
-	branch = openpht-1.7
+	branch = openpht-1.8
 [submodule "service.openelec.settings"]
 	path = service.openelec.settings
 	url = https://github.com/RasPlex/service.openelec.settings.git
-	branch = openpht-1.7
+	branch = openpht-1.8
 [submodule "vagrant"]
 	path = vagrant
 	url = https://github.com/RasPlex/vagrant.git
